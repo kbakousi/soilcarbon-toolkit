@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soilcarbon"
+version = "0.1.0"
+description = "Soil organic carbon scenario analysis (RothC / GSOCseq outputs), stratified sampling design, IDW and ordinary kriging, and model-measurement agreement."
+readme = "README.md"
+license = "LicenseRef-All-Rights-Reserved"
+license-files = ["LICENSE"]
+authors = [{ name = "Aikaterini Bakousi" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.2", "scipy>=1.10"]
+keywords = ["soil organic carbon", "RothC", "GSOCseq", "kriging", "sampling design", "carbon sequestration"]
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.optional-dependencies]
+geo = ["rasterio>=1.3", "geopandas>=0.14"]
+test = ["pytest>=7", "nbclient>=0.7", "nbformat>=5.7", "ipykernel>=6", "matplotlib>=3.7"]
+dev = ["pytest>=7", "ruff>=0.4", "nbclient>=0.7", "nbformat>=5.7", "ipykernel>=6", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "NPY", "UP"]

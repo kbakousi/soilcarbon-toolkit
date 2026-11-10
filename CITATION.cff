@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+title: "soilcarbon-toolkit"
+type: software
+authors:
+  - family-names: Bakousi
+    given-names: Aikaterini
+version: 0.1.0
+date-released: 2026-11-13
+repository-code: "https://github.com/kbakousi/soilcarbon-toolkit"
+keywords: [soil organic carbon, RothC, GSOCseq, kriging, sampling design]
+abstract: >-
+  Soil organic carbon scenario analysis for RothC / GSOCseq outputs,
+  stratified field-sampling design, IDW and ordinary kriging, and
+  model-measurement agreement statistics. All rights reserved.
+references:
+  - type: manual
+    authors: [{name: "FAO"}]
+    title: "Global soil organic carbon sequestration potential map (GSOCseq v1.1) - Technical manual"
+    year: 2022
+    doi: 10.4060/cb2642en
+  - type: book
+    authors: [{family-names: Coleman, given-names: Kevin}, {family-names: Jenkinson, given-names: David S.}]
+    title: "RothC-26.3 - A model for the turnover of carbon in soil"
+    year: 1996
+    doi: 10.1007/978-3-642-61094-3_17
+  - type: article
+    authors: [{family-names: Cressie, given-names: Noel}]
+    title: "Fitting variogram models by weighted least squares"
+    journal: Mathematical Geology
+    year: 1985
+    doi: 10.1007/BF01032109
+  - type: article
+    authors: [{family-names: Lin, given-names: Lawrence I-Kuei}]
+    title: "A concordance correlation coefficient to evaluate reproducibility"
+    journal: Biometrics
+    year: 1989
+    doi: 10.2307/2532051
