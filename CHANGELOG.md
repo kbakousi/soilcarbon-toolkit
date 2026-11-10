@@ -2,7 +2,7 @@
 
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: [SemVer](https://semver.org/).
 
-## [0.1.0] - 2026-11-13
+## [0.1.0] - 2026-11-10
 
 Refactored from the analysis scripts of the author's MSc thesis (2025) into a tested package.
 

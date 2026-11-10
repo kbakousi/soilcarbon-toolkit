@@ -6,7 +6,7 @@ authors:
   - family-names: Bakousi
     given-names: Aikaterini
 version: 0.1.0
-date-released: 2026-11-13
+date-released: 2026-11-10
 repository-code: "https://github.com/kbakousi/soilcarbon-toolkit"
 keywords: [soil organic carbon, RothC, GSOCseq, kriging, sampling design]
 abstract: >-
