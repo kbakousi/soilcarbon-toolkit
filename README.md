@@ -1,6 +1,6 @@
 # soilcarbon-toolkit
 
-[![Tests](https://github.com/kbakousi/soilcarbon-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/kbakousi/soilcarbon-toolkit/actions/workflows/ci.yml)
+[![Tests](https://github.com/kbakousi/soilcarbon-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/kbakousi/soilcarbon-toolkit/actions/workflows/ci.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24118766.svg)](https://doi.org/10.5281/zenodo.24118766)
 
 Tools for soil organic carbon (SOC) work at regional scale:
 - **sampling design** for field campaigns;
@@ -100,3 +100,5 @@ The tests use synthetic data only and check:
 ## Citation
 
 See `CITATION.cff`.
+
+Archived on Zenodo: [doi:10.5281/zenodo.24118766](https://doi.org/10.5281/zenodo.24118766) (all versions; each release also has its own DOI on that page).
