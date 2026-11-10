@@ -8,7 +8,7 @@ Tools for soil organic carbon (SOC) work at regional scale:
 - **scenario analysis** of modelled SOC stocks (RothC / FAO GSOCseq outputs);
 - **agreement statistics** between model and measurements.
 
-The package is a refactoring of the analysis scripts of my MSc thesis (2025), which modelled SOC sequestration potential under alternative management scenarios in Eastern Macedonia & Thrace, Greece. Each module is an independent implementation of the methods described in the publications cited in its docstring.
+Each module is an independent implementation of the methods described in the publications cited in its docstring.
 
 ## Workflow
 
@@ -58,9 +58,9 @@ alloc = sampling.allocate(cells["cluster"].value_counts(), n=50, method="proport
 
 It runs offline and is executed by the test suite.
 
-## What changed compared with the thesis scripts
+## What changed compared with the earlier scripts
 
-Refactoring the scripts into tested functions surfaced and fixed these issues (details in `CHANGELOG.md`):
+Refactoring earlier analysis scripts into tested functions surfaced and fixed these issues (details in `CHANGELOG.md`):
 1. **Upside-down rasters.** Interpolated rasters were written north–south flipped, and offset by half a pixel.
 2. **RMSE against the wrong line.** RMSE was measured against a regression fitted to the same data instead of the 1:1 line.
 3. **Inexact sample allocation.** Rounding could move a cluster by more than one sample from its exact share.

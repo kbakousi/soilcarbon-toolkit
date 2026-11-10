@@ -9,7 +9,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: [S
 
 ## [0.1.0] - 2026-11-10
 
-Refactored from the analysis scripts of the author's MSc thesis (2025) into a tested package.
+Refactored from earlier analysis scripts into a tested package.
 
 ### Added
 - `io`: one canonical schema for scenario outputs; detects mixed outputs (e.g. `Med_Scenar` and `Med_Scena0` in one table).
@@ -21,7 +21,7 @@ Refactored from the analysis scripts of the author's MSc thesis (2025) into a te
 - Tutorial notebook `tutorials/01_soc_mapping_walkthrough.ipynb` (sampling, regression kriging, cross-validation,
   scenario totals), executed by the test suite.
 
-### Fixed (compared with the thesis scripts)
+### Fixed (compared with the earlier scripts)
 - Interpolated rasters were written upside down (ascending y rows with a top-left origin) and offset by half a pixel; the grid now uses pixel centres and a north-up transform.
 - RMSE was computed against a regression fitted to the same data; it is now computed against the 1:1 line.
 - Sample allocation rounded per cluster and then corrected only the largest cluster; it now uses the largest-remainder method.
