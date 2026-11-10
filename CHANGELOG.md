@@ -2,7 +2,7 @@
 
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [0.1.1] - 2026-11-10
 
 ### Changed
 - Licence changed from all rights reserved to Apache-2.0 (`LICENSE`, `NOTICE`).

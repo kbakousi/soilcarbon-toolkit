@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "soilcarbon"
-version = "0.1.0"
+version = "0.1.1"
 description = "Soil organic carbon scenario analysis (RothC / GSOCseq outputs), stratified sampling design, IDW and ordinary kriging, and model-measurement agreement."
 readme = "README.md"
 license = "Apache-2.0"

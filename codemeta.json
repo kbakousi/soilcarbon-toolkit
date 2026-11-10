@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "name": "soilcarbon-toolkit",
   "description": "Soil organic carbon scenario analysis (RothC / GSOCseq outputs), stratified sampling design, IDW and ordinary kriging, and model-measurement agreement.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "identifier": "https://doi.org/10.5281/zenodo.24118766",
   "codeRepository": "https://github.com/kbakousi/soilcarbon-toolkit",
   "issueTracker": "https://github.com/kbakousi/soilcarbon-toolkit/issues",

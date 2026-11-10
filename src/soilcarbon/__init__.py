@@ -7,4 +7,4 @@ publications cited in its docstring.
 from . import interp, io, sampling, scenarios, units, validate
 
 __all__ = ["interp", "io", "sampling", "scenarios", "units", "validate"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
