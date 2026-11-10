@@ -1,19 +1,21 @@
 cff-version: 1.2.0
-message: "If you refer to this software, please cite it as below."
+message: "If you use this software, please cite it as below."
 title: "soilcarbon-toolkit"
 type: software
 authors:
   - family-names: Bakousi
     given-names: Aikaterini
+    orcid: "https://orcid.org/0000-0002-2445-1602"
 version: 0.1.0
 date-released: 2026-11-10
+license: Apache-2.0
 repository-code: "https://github.com/kbakousi/soilcarbon-toolkit"
 doi: 10.5281/zenodo.24118766
 keywords: [soil organic carbon, RothC, GSOCseq, kriging, sampling design]
 abstract: >-
   Soil organic carbon scenario analysis for RothC / GSOCseq outputs,
   stratified field-sampling design, IDW and ordinary kriging, and
-  model-measurement agreement statistics. All rights reserved.
+  model-measurement agreement statistics.
 references:
   - type: manual
     authors: [{name: "FAO"}]

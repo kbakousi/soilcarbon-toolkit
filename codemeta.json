@@ -1,0 +1,89 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "soilcarbon-toolkit",
+  "description": "Soil organic carbon scenario analysis (RothC / GSOCseq outputs), stratified sampling design, IDW and ordinary kriging, and model-measurement agreement.",
+  "version": "0.1.0",
+  "identifier": "https://doi.org/10.5281/zenodo.24118766",
+  "codeRepository": "https://github.com/kbakousi/soilcarbon-toolkit",
+  "issueTracker": "https://github.com/kbakousi/soilcarbon-toolkit/issues",
+  "readme": "https://github.com/kbakousi/soilcarbon-toolkit#readme",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "datePublished": "2026-11-10",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0002-2445-1602",
+      "@type": "Person",
+      "givenName": "Aikaterini",
+      "familyName": "Bakousi"
+    }
+  ],
+  "copyrightHolder": [
+    {
+      "@id": "https://orcid.org/0000-0002-2445-1602",
+      "@type": "Person",
+      "givenName": "Aikaterini",
+      "familyName": "Bakousi"
+    }
+  ],
+  "keywords": [
+    "carbon sequestration",
+    "GSOCseq",
+    "kriging",
+    "RothC",
+    "sampling design",
+    "soil organic carbon"
+  ],
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "Python",
+    "url": "https://www.python.org"
+  },
+  "runtimePlatform": "Python >=3.10",
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "numpy",
+      "name": "numpy",
+      "runtimePlatform": "Python 3",
+      "version": ">=1.24"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "pandas",
+      "name": "pandas",
+      "runtimePlatform": "Python 3",
+      "version": ">=2.2"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "scipy",
+      "name": "scipy",
+      "runtimePlatform": "Python 3",
+      "version": ">=1.10"
+    }
+  ],
+  "developmentStatus": "https://www.repostatus.org/#active",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.4060/cb2642en",
+      "name": "Global soil organic carbon sequestration potential map (GSOCseq v1.1) - Technical manual"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.1007/978-3-642-61094-3_17",
+      "name": "RothC-26.3 - A model for the turnover of carbon in soil"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.1007/BF01032109",
+      "name": "Fitting variogram models by weighted least squares"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://doi.org/10.2307/2532051",
+      "name": "A concordance correlation coefficient to evaluate reproducibility"
+    }
+  ]
+}
