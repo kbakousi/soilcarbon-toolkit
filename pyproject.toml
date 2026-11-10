@@ -7,8 +7,8 @@ name = "soilcarbon"
 version = "0.1.0"
 description = "Soil organic carbon scenario analysis (RothC / GSOCseq outputs), stratified sampling design, IDW and ordinary kriging, and model-measurement agreement."
 readme = "README.md"
-license = "LicenseRef-All-Rights-Reserved"
-license-files = ["LICENSE"]
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
 authors = [{ name = "Aikaterini Bakousi" }]
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24", "pandas>=2.2", "scipy>=1.10"]

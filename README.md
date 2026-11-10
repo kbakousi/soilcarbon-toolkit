@@ -10,8 +10,6 @@ Tools for soil organic carbon (SOC) work at regional scale:
 
 The package is a refactoring of the analysis scripts of my MSc thesis (2025), which modelled SOC sequestration potential under alternative management scenarios in Eastern Macedonia & Thrace, Greece. Each module is an independent implementation of the methods described in the publications cited in its docstring.
 
-> **Licence: all rights reserved.** This repository is public so that the code can be read. It grants no right to use, copy or modify it. Research or teaching use is available on request (see `LICENSE`).
-
 ## Workflow
 
 ```
@@ -97,8 +95,8 @@ The tests use synthetic data only and check:
 - Matheron, G. (1963). Principles of geostatistics. *Economic Geology* 58, 1246–1266. https://doi.org/10.2113/gsecongeo.58.8.1246
 - Shepard, D. (1968). A two-dimensional interpolation function for irregularly-spaced data. *Proc. 23rd ACM National Conference*, 517–524. https://doi.org/10.1145/800186.810616
 
-## Citation
+## Licence and citation
 
-See `CITATION.cff`.
+Apache-2.0 (see `LICENSE` and `NOTICE`). To cite, use `CITATION.cff` ("Cite this repository" on GitHub).
 
 Archived on Zenodo: [doi:10.5281/zenodo.24118766](https://doi.org/10.5281/zenodo.24118766) (all versions; each release also has its own DOI on that page).
